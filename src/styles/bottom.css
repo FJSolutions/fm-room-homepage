@@ -1,0 +1,11 @@
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    p {
+        text-align: center;
+        flex-grow: 1;
+    }
+}
