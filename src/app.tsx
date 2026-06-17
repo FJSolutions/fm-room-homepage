@@ -1,14 +1,16 @@
 import { Nav } from "./components/nav.tsx";
 import { Hero } from "./components/hero.tsx";
-import { Bottom } from "./components/Bottom.tsx";
+import { About } from "./components/about.tsx";
 
 export function App() {
 
   return (
     <>
       <Nav />
-      <Hero />
-      <Bottom />
+      <main>
+        <Hero />
+        <About />
+      </main>
     </>
   )
 }

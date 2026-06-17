@@ -1,20 +1,21 @@
 @import "variables.css";
 @import "./nav.css";
 @import "./hero.css";
-@import "./bottom.css";
+@import "about.css";
 
 body {
+    height: 100%;
     background-color: var(--Grey-500);
-    min-height: 100vh;
 }
 
 html, body, input, textarea {
     font-family: var(--Font), sans-serif;
 }
 
-#app {
-    position: relative;
+main {
     display: grid;
-    grid-template-rows: 67% 33%;
-    min-height: 100vh;
+    grid-template-rows: 7fr 3fr;
+    height: 100dvh;
+    max-height: 100dvh;
+    overflow: hidden;
 }

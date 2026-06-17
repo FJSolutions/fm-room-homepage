@@ -1,0 +1,29 @@
+
+.about {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1.3fr 1fr;
+
+    picture {
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    article {
+        background-color: var(--White);
+        height: 100%;
+        padding: 5rem 3rem;
+    }
+}
+
+.about--attribution {
+    position: absolute;
+    bottom: 0.3rem;
+    left: 0;
+    font-size: 0.8rem;
+    width: 100%;
+    text-align: center;
+}
